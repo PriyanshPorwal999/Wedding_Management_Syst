@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# VS Code
+.vscode/
+
+# System/Temp
+.DS_Store
+Thumbs.db
+
+# Project-specific
+backup/
+maincel/backup/
+maincel/loading/
+.env
