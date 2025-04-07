@@ -1,3 +1,5 @@
+// THis is js file for index file for login section.
+
 const express = require('express');
 const path = require("path");
 const bcrypt = require("bcrypt");

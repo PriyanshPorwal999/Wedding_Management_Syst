@@ -1,3 +1,5 @@
+// THis is just a part of index.js file of login section.
+
 const container = document.getElementById("container");
 const registerBtn = document.getElementById("register");
 const loginBtn = document.getElementById("login");
