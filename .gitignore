@@ -12,5 +12,6 @@ Thumbs.db
 # Project-specific
 backup/
 maincel/backup/
-maincel/loading/
+
+
 .env
