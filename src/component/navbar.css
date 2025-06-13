@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    color: black;
+
+}
+
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 1rem 2rem; */
+    background-color: #034C53;
+    color: #F38C79;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0; 
+}
+
+
+/* Vendor button */
+.vendor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 100px;
+    background-color: #007074;
+    color: #FAFFC5;
+    
+}
+
+/* Photography button */
+.photography {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 100px;
+    background-color: #007074;
+    color: #FAFFC5;
+    
+}
+
+/* Catering Button */
+.catering {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 100px;
+    background-color: #007074;
+    color: #FAFFC5;
+    
+}
