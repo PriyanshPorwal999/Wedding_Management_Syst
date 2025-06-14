@@ -4,19 +4,35 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './component/navbar.jsx'
 import Footer from './component/footer.jsx'
+import Services from './component/Services/services.jsx'
 
 function App() {
   return (
     <div className="app-container">
-      <Navbar />
-     <main className="main-content">
+      <div className='navbar-container'>
+          <Navbar />
+
+      </div>
+      <div className="main-content-container">
+        <Services />
+        &nbsp;
+        <Services />
+        &nbsp;
+        <Services />
+      </div>
+     {/* <main className="main-content">
       <div className="home-content">
             <img src="../maincel/images/imagecopy2.jpg" className="home-image" alt="Vite logo"></img>
-            {/* <h1>Hello</h1> */}
+            <h1>Hello</h1>
       </div>
-     </main>
+     </main> */}
+
+     <div style={{ height: "1200px", background: "#f2f2f2" }}></div>
         
-      <Footer />
+      <div className="footer-container">
+        <Footer />
+      </div>  
+      
     </div>
 
   );
