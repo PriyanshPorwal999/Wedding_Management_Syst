@@ -1,0 +1,13 @@
+.images-container {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #e1d610;
+    /* margin-left: 2px; */
+}
+
+.images-container img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    
+}
