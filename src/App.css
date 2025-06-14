@@ -1,21 +1,59 @@
 
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;;
+}
+
+.app-container {
+  /* display: flex;
+  flex-direction: column; */
+  width: 100%;
+  /* border: 3px solid blue; */
+
+  /* min-height: 500vh;    */
+  /* Ensures full height but doesn't center */
+}
+
+
+.main-content-container {
+  margin-top: 70px;
+
+}
+
+
+
+.navbar-container{
+  width: 100%;
+  border: 3px solid red;
+}
+
+
+
 /* Home page div css under main section in app.jsx file*/
-.home-content {
+/* .home-content {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 1000px;
   width: 1526px;
 
-}
+} */
 
 /* Home page image  */
-.home-image {
+/* .home-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.3; 
-}
+  opacity: 0.8; 
+} */
+
+
+
+
+
 
 
 
