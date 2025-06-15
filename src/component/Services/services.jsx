@@ -11,6 +11,7 @@ const Services = () => {
       
       <div className="services-content">
         <h2 className="budget_1">Budget Management</h2>
+        <p>Hi this is your buddy</p>
       </div>
     </div>
   );
