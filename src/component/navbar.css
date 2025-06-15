@@ -1,65 +1,85 @@
 * {
-    margin: 0;
-    padding: 0;
-
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f0f0f0;
-    color: black;
-
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f0f0;
+  color: black;
 }
-
 
 /* Navbar */
 .navbar {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    /* padding: 1rem 2rem; */
-    background-color: #034C53;
-    color: #F38C79;
-    height: 50px;
-    width: 100%;
-    /* position: fixed; */
-    top: 0;
-    left: 0; 
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  /* padding: 1rem 2rem; */
+  background-color: #034c53;
+  color: #f38c79;
+  height: 50px;
+  width: 100%;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  right: 0;
+  gap: 30px;
 }
-
 
 /* Vendor button */
 .vendor {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 20px;
-    width: 100px;
-    background-color: #007074;
-    color: #FAFFC5;
-    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 100px;
+  background-color: #007074;
+  color: #faffc5;
 }
 
 /* Photography button */
 .photography {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 20px;
-    width: 100px;
-    background-color: #007074;
-    color: #FAFFC5;
-    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 100px;
+  background-color: #007074;
+  color: #faffc5;
 }
 
 /* Catering Button */
 .catering {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 20px;
-    width: 100px;
-    background-color: #007074;
-    color: #FAFFC5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 100px;
+  background-color: #007074;
+  color: #faffc5;
+}
+
+.login {
+  height: 20px;
+  width: 50px;
+  background-color: #007074;
+  color: #f0f0f0;
+  /* border: 2px solid red; */
+  /* border-radius: 2px; */
+  margin-left: auto;
+  /* Pushes it to the right */
+  margin-right: 20px; 
+  /* Adds space from the right edge */
+} 
+
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
     
+}
+
+button:hover {
+    /* border-color: #fcff64; */
+    background-color: blue;
 }
