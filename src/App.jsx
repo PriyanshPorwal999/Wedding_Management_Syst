@@ -11,15 +11,13 @@ function App() {
     <div className="app-container">
       <div className='navbar-container'>
           <Navbar />
-
       </div>
       <div className="main-content-container">
         <Services />
-        &nbsp;
         <Services />
-        &nbsp;
         <Services />
       </div>
+      {/* &nbsp; */}
      {/* <main className="main-content">
       <div className="home-content">
             <img src="../maincel/images/imagecopy2.jpg" className="home-image" alt="Vite logo"></img>
@@ -27,7 +25,7 @@ function App() {
       </div>
      </main> */}
 
-     <div style={{ height: "1200px", background: "#f2f2f2" }}></div>
+     {/* <div style={{ height: "1200px", background: "#f2f2f2" }}></div> */}
         
       <div className="footer-container">
         <Footer />
