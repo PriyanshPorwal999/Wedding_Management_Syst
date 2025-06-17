@@ -13,9 +13,9 @@ function App() {
           <Navbar />
       </div>
       <div className="main-content-container">
-        <Services />
-        <Services />
-        <Services />
+        <Services Title="Budget Management" Description="We handle it smoothly" Price={25}/>
+        <Services Title="Time Management" Description="We handle it smoothly" Price={50}/>
+        <Services Title="Fast Services" Description="We handle it smoothly" Price={500}/>
       </div>
       {/* &nbsp; */}
      {/* <main className="main-content">
