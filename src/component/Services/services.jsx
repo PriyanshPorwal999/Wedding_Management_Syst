@@ -2,7 +2,7 @@ import React from "react";
 import "./services.css";
 import Images from "./images.jsx";
 
-const Services = () => {
+function Services ({Title, Description, Price=1}) {
   return (
     <div className="services-container">
       <div className="services-header"> 
@@ -10,8 +10,9 @@ const Services = () => {
       </div>
       
       <div className="services-content">
-        <h2 className="budget_1">Budget Management</h2>
-        <p>Hi this is your buddy</p>
+        <h2 className="budget_1">{Title}</h2>
+        <p>{Description}</p>
+        <p>Price:{Price}</p>
       </div>
     </div>
   );
