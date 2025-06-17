@@ -68,18 +68,22 @@ body {
   /* border-radius: 2px; */
   margin-left: auto;
   /* Pushes it to the right */
-  margin-right: 20px; 
+  margin-right: 20px;
   /* Adds space from the right edge */
-} 
-
+}
 
 button {
-    border-radius: 8px;
-    border: 1px solid transparent;
-    
+  height: 20px;
+  width: 100px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background-color: #007074;
+  color: #FFF4B7;
 }
 
 button:hover {
-    /* border-color: #fcff64; */
-    background-color: blue;
+  /* border-color: #fcff64; */
+  background-color: blue;
+  box-shadow: 0 4px 16px rgba(208, 236, 27, 0.2);
+  transform: scale(1.03);
 }
