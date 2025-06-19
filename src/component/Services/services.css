@@ -18,7 +18,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   background-color: #A9BFA8;
   cursor: pointer;
-  border-radius: 12px;
+  border-radius: 13px;
 }
 
 .services-container:hover {
